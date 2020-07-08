@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honcho's School | Homepage</title>
+    <link rel="shortcut icon" href="images/bunny-1925500_1920.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -12,7 +14,29 @@
 </head>
 
 <body>
-    <div class="container bg-dark">hi</div>
+    <div class="col first_contn">
+
+        <nav class="col-sm-12 col-12 navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a href="" class="navbar-brand"><img src="images/bunny-1925500_1920.png" alt=""></a>
+            <a href="" class="nav-item">Home</a>
+            <a href="" class="nav-item">Academics</a>
+            <a href="" class="nav-item">News</a>
+            <a href="" class="nav-item">Contact</a>
+            <div class="btn-group dropdown float-right">
+                <button class="btn btn-warning">Login</button>
+                <button id="my-dropdown" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle dropdown</span>
+               </button>
+                <div class="dropdown-menu" aria-labelledby="my-dropdown">
+                    <a class="dropdown-item" href="#">Parent Login</a>
+                    <a class="dropdown-item" href="">Student Login</a>
+                    <a class="dropdown-item" href="">Staff Login</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
 </body>
 
 </html>

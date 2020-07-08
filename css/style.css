@@ -1,0 +1,36 @@
+    html,
+    body {
+        background-color: white;
+        font-family: 'segoe ui';
+    }
+    
+    .first_contn {
+        background-image: url(../images/pexelskidsinclassroom.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    .first_contn div {
+        border: 0;
+        border-radius: 5px;
+        margin-right: 25px;
+    }
+    
+    @media only screen and (min-width:700px) {
+        .first_contn div {
+            margin-right: 50px;
+        }
+    }
+    
+    .dropdown-menu {
+        padding: 0 !important;
+    }
+    
+    .dropdown-menu a:hover {
+        background-color: yellowgreen;
+    }
+    
+    .navbar-brand img {
+        width: 50px;
+    }
